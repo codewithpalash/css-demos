@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round&display=swap);
+
+/* Basic Page Level Css */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Varela Round, Helvetica, Arial, sans-serif;
+  margin: 0;
+  color: #555;
+  background: #f6f5f8;
+}
+
+.container {
+  max-width: 960px;
+  padding: 0 32px;
+  margin: 0 auto;
+}
+
+h1,
+h3 {
+  color: #333;
+}
+
+.item {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px 0;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #fff;
+  height: 160px;
+  font-size: 20px;
+}
+
+.item1 {
+  border-top: 6px solid #48d8bb;
+}
+.item2 {
+  border-top: 6px solid #794cc3;
+}
+.item3 {
+  border-top: 6px solid #ff7b72;
+}
+.item4 {
+  border-top: 6px solid #79c0ff;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+
+/* Using flexbox */
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* The flexible items are displayed vertically, as a column */
+.flexbox-column {
+  flex-direction: column;
+}
+
+/* Using CSS Grid Layout (Method #1) */
+.grid {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Places items by filling each column,
+  so that items are displayed horizontally, as a row */
+.grid-row {
+  grid-auto-flow: column;
+  gap: 5px;
+}
+
+/* Using Grid Layout (Method #2 - BEST) */
+.grid2 {
+  display: grid;
+  place-content: center;
+}
