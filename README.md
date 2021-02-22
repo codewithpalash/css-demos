@@ -4,7 +4,8 @@ This is a collection of CSS demos based on my YouTube videos on my channel, [Cod
 
 ## My CSS Demos
 
-- [](https://codewithpalash.github.io/css-demos/demos/)
+- [How to Center Text Vertically and Horizontally in CSS](https://codewithpalash.github.io/css-demos/demos/center-text/)
+- Coming soon...
 
 I hope these demos will help you. If you like this repo and find it useful, please consider ★ starring it.
 
