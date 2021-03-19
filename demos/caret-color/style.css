@@ -1,0 +1,32 @@
+
+body {
+  background: #232946;
+  color: #fffffe;
+}
+
+.font-lg {
+  font-size: 2.5em;
+}
+
+/* ID of the input elements */
+#custom, #textarea {
+  caret-color: red;
+}
+
+#contenteditable {
+  caret-color: deepskyblue;
+  background: #fffffe;
+  color: #232946;
+}
+
+/* ID of the input element to add animation */
+#custom2:focus {
+  animation: changeCC 2s infinite;
+}
+
+/* Simple caret-color change animation */
+@keyframes changeCC {
+  0%   { caret-color: red; }
+  50%  { caret-color: skyblue; }
+  100% { caret-color: red; }
+}

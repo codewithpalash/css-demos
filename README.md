@@ -5,7 +5,7 @@ This is a collection of CSS demos based on my YouTube videos on my channel, [Cod
 ## My CSS Demos
 
 - [How to Center Text Vertically and Horizontally in CSS](https://codewithpalash.github.io/css-demos/demos/center-text/)
-- Coming soon...
+- [How to change color of the input text cursor](https://codewithpalash.github.io/css-demos/demos/caret-color/)
 
 I hope these demos will help you. If you like this repo and find it useful, please consider ★ starring it.
 
